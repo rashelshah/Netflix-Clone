@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    border: border-box;
+    padding: 0;
+}
+.navbar{
+    height: 92px;
+    padding-left: 50px;
+    padding-top:0px;
+    padding-bottom: 24px;
+    padding-right: 32px;
+    margin: auto 133px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.47),rgba(0, 0, 1, 0.878)),url("netflix.jpeg");
+    background-size: cover;
+    height: 700px;  
+    border-bottom: 5px solid grey;
+    
+}
+.logo{
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 40px;
+    width: 148px;
+  
+    
+}
+.language-select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 32px;
+    border-radius: 5px;
+}
+.eng{
+    width:126px;
+    background-color: transparent;
+    color: white;
+    border: 0.5px solid white;
+
+}
+.eng img{
+    width: 10px;
+   ;
+    margin-left: 3px;
+}
+.sign-in{
+    width:77px;
+    background-color: red;
+    color: white;
+    margin-left: 20px;
+    margin-right: 40px;
+    cursor:pointer;
+}
+.box-1-contents{
+    color: white;
+    position: absolute;
+    top:37%;
+    left:50%;
+    margin-top: 100px;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+    text-align: center;
+}
+.box-1-contents h1{
+    font-size: 3rem;
+    font-weight: 900;
+    width: 871px;
+    height: 61px;
+    
+}
+.box-1-contents h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 871px;
+    height: 31px;
+    margin-top: 16px;
+}
+.box-1-contents p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 806px;
+    height: 30px;
+    margin-top: 17px;
+}
+.sign-up{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.sign-up input{
+    width: 369px;
+    height: 24px;
+    padding: 24px 16px 8px;
+    line-height: 1.5;
+    font-size: 1rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(23,23,23,0.2);
+   fill: currentColor;
+   margin-left: 100px;
+   
+
+}
+.sign-up button{
+    background-color: red;
+    color: white;
+    width: 207px;
+    height: 54px;
+    border: 1px solid red;
+    transition: inherit;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-radius: 0.1875rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.box-2{
+    height: 412px;
+    background-color: black;
+    color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid grey;
+    padding-bottom: 100px;
+}
+.box-2-contents{
+
+    height: 163px;
+    padding-right: 6px;
+    
+    
+
+}
+.box-2-contents h1{
+width: 543px;
+height: 61px;
+font-size: 3rem;
+font-weight: 900;
+
+
+}
+.box-2-contents p{
+    width: 543px;
+    height: 62px;
+    margin-top: 16px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 200px;
+    
+   
+}
+.img-tv{
+    background-image: url("tv.png");
+    background-size: cover;
+    width: 543px;
+    height:407px;
+    margin-left: 30px;
+    position: relative; 
+   
+}
+.img-tv video{
+    position: absolute;
+    top: 38px;
+    width: 392px;
+    padding-top: 47px;
+    padding-right: 0;
+    margin-left: 74px;   
+
+}
+.box-3{
+    height: 412px;
+    background-color: black;
+    color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 75px;  
+    border-bottom: 5px solid grey;
+}
+.box-3-contents{
+
+    height: 163px;
+    padding-right: 6px;
+}
+.box-3-contents h1{
+    width: 543px;
+    height: 118px;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.box-3-contents p{
+    width: 543px;
+    height: 57px;
+    margin-top: 16px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 200px;
+}
+.img-phone{
+    background-image: url("feature-2.png");
+    background-size: cover;
+    width: 543px;
+    height:407px;
+    margin-left: 30px;
+    position: relative; 
+   margin-top: 50px;
+}
+.img-tv video{
+    position: absolute;
+    top: 38px;
+    width: 392px;
+    padding-top: 47px;
+    padding-right: 0;
+    margin-left: 74px;   
+}
+.box-4{
+    height: 412px;
+    background-color: black;
+    color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid grey;
+    padding-bottom: 75px;
+    
+
+    
+}
+.box-4-contents{
+
+    height: 163px;
+    padding-right: 6px;
+    z-index: 1;
+    
+    
+
+}
+.box-4-contents h1{
+width: 543px;
+height: 61px;
+font-size: 3rem;
+font-weight: 900;
+
+
+}
+.box-4-contents p{
+    width: 543px;
+    height: 62px;
+    margin-top: 16px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 200px;
+    
+   
+}
+.img-mac{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png");
+    background-size: cover;
+    width: 543px;
+    height:407px;
+    margin-left: 30px;
+    position: relative; 
+    margin-top: 50px;
+      
+}
+.img-mac video{
+    position: absolute;
+    display: inline-block; 
+    width: 317px;
+    top: 38px;
+    padding-right:0;
+    margin-left: 105px;  
+   
+}
+.box-5{
+    height: 412px;
+    background-color: black;
+    color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid grey;
+    
+}
+.box-5-contents{
+
+    height: 163px;
+    padding-right: 6px;
+    
+    
+
+}
+.box-5-contents h1{
+width: 490px;
+height: 61px;
+font-size: 3rem;
+font-weight: 900;
+
+
+}
+.box-5-contents p{
+    width: 490px;
+    height: 86px;
+    margin-top: 16px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 200px;
+    
+   
+}
+.img-one{
+    background-image: url("https://occ-0-2087-2164.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d");
+    background-size: cover;
+    width: 543px;
+    height:407px;
+    margin-left: 30px;
+    position: relative; 
+   
+}
+.faq-box{
+    height: 780px;
+    background-color: black;
+    color: white;
+    padding-top: 72px;
+    padding-bottom: 72px;
+   display: flex;
+   padding-left: 200px;
+   border-bottom: 5px solid grey;
+    
+}
+.faq{
+    height: 60px;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+.question-box{
+    display: flex;
+    background-color: rgba(94, 92, 92, 0.431);
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1100px;
+    margin: auto;
+    justify-content: space-between;
+    margin: 10px;
+    
+    
+}
+.question-box i{
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+.ready-box{
+    font-size: 1.35rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 50px;
+   
+}
+.sign-up-1{
+ margin-left:150px ;
+}
+.foot-1{
+    font-size: 1rem;
+    font-weight: 400;
+   padding-top: 1rem;
+    background-color: black;
+    color: rgb(179, 174, 174);
+    height: 350px;
+    padding-right: 200px;
+   
+    
+}
+.foot-2{
+    height:50px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 160px;
+}
+.foot-3{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    margin-top: 15px;
+    color: rgb(179, 174, 174);
+    
+}
+
